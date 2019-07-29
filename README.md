@@ -34,4 +34,6 @@ export class AppModule {}
 npm run start:dev
 ```
 
-## api calls - tbd
+## api calls
+
+![Alt Text](https://sd-softdev.de/docs/sd-nest-auth.gif)
