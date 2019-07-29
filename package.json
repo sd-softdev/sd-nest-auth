@@ -1,11 +1,16 @@
 {
   "name": "sd-nest-auth",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A lightwey package to using a authenticaion strategy",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.lib.json",
+    "build:pack": "tsc -p tsconfig.lib.json&&npm pack",
+    "build:publish": "tsc -p tsconfig.lib.json&&npm publish"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sd-softdev/sd-nest-auth.git"
