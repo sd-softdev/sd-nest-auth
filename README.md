@@ -8,7 +8,7 @@ npm i sd-nest-auth
 ## import sd-nest-auth module
 ```js
 import { Module } from '@nestjs/common';
-import { AuthModule } from './sd-nest-auth';
+import { AuthModule } from 'sd-nest-auth';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { join } from 'path';
 
@@ -18,7 +18,7 @@ import { join } from 'path';
       type: 'mongodb',
       host: 'localhost',
       database: 'mep2',
-      entities: [join(__dirname, '**/**.entity{.ts,.js}')],
+      entities: [join(__dirname, './../**/**.entity{.ts,.js}')],
       synchronize: true,
       useNewUrlParser: true,
     }),
