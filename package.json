@@ -1,9 +1,10 @@
 {
   "name": "sd-nest-auth",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A lightwey package to using a authenticaion strategy",
   "main": "index.ts",
   "scripts": {
+    "publish:prepair": "npm run build&&node ./build.post.js",
     "build": "tsc -p tsconfig.lib.json",
     "build:pack": "tsc -p tsconfig.lib.json&&npm pack",
     "build:publish": "tsc -p tsconfig.lib.json&&npm publish"
@@ -35,6 +36,7 @@
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
+    "rxjs": "^6.5.2",
     "sd-nest-base": "^0.1.0"
   }
 }
