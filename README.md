@@ -1,8 +1,8 @@
 # using sd-nest-auth
 
 ## install npm package
-```
-npm i sd-nest-auth
+```bash
+> npm i sd-nest-auth
 ```
 
 ## import sd-nest-auth module
