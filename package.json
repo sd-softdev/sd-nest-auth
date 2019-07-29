@@ -10,7 +10,7 @@
     "build:publish": "tsc -p tsconfig.lib.json&&npm publish"
   },
   "files": [
-    "dist/**/*"
+    "**/*"
   ],
   "repository": {
     "type": "git",
