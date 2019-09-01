@@ -1,6 +1,6 @@
 {
   "name": "sd-nest-auth",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A lightwey package to using a authenticaion strategy",
   "main": "index.ts",
   "scripts": {

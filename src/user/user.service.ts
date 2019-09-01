@@ -15,6 +15,7 @@ export class UserService extends BaseService<User> {
 
     ) {
         super(fRepo);
+        this.uniqueProps = ['name'];
     }
 
     async findOne(username: string): Promise<User> {
