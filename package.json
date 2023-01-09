@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/sd-softdev/sd-nest-auth#readme",
   "dependencies": {
-    "@nestjs/jwt": "^6.1.1",
+    "@nestjs/jwt": "^10.0.1",
     "@nestjs/passport": "^6.1.0",
     "bcrypt": "^3.0.6",
     "passport": "^0.4.0",
